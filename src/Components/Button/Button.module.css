@@ -1,0 +1,31 @@
+.button {
+  text-transform: uppercase;
+  color: #f8a54c;
+  padding: 1rem 2rem;
+  border: 3px solid #f8a54c;
+  border-radius: 4rem;
+  font-family: "Anton SC";
+  font-size: 1.33rem;
+  background: none;
+  text-decoration: none;
+}
+
+.buttonFilled {
+  text-transform: uppercase;
+  color: #ffff;
+  border: none;
+  background-color: #f8a54c;
+  padding: 1rem 2rem;
+  border-radius: 4rem;
+  font-size: 1.33rem;
+  font-family: "Anton SC";
+  text-decoration: none;
+}
+
+@media screen and (min-width: 600px) {
+  .button,
+  .buttonFilled {
+    padding: 1rem 4rem;
+    font-size: 1.6rem;
+  }
+}

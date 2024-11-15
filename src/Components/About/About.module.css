@@ -1,0 +1,27 @@
+.container__text {
+  justify-content: center;
+  margin: 4rem 0rem;
+}
+
+.text {
+  text-align: center;
+  margin: 1rem 0rem;
+}
+
+.container {
+  text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+  .container__text {
+    display: flex;
+    justify-content: center;
+    margin: 4rem 0rem;
+  }
+
+  .text {
+    width: 40%;
+    text-align: justify;
+    margin: 0rem 2rem;
+  }
+}

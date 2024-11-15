@@ -1,0 +1,109 @@
+.imgWrapper {
+  margin: 2rem 0rem 0rem 0rem;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.img__topleft {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.img__center {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container__wrapper {
+  width: 80%;
+  background-color: #212121;
+  margin: 20rem auto;
+}
+
+.container__intro {
+  text-align: center;
+  margin: 10rem 0rem 15rem 0rem;
+}
+
+.projects__container__design {
+  margin: 5rem 0rem 5rem 0rem;
+}
+
+.projects__title {
+  margin: 2rem 0rem 5rem 0rem;
+}
+
+.divider {
+  background-color: #f8a54c;
+  height: 0.4rem;
+  border-radius: 2rem;
+  width: 10%;
+  margin: 2rem auto;
+}
+
+.h1 {
+  margin: 1rem 0rem;
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+
+.h3,
+.h2 {
+  font-family: "Lora";
+  font-size: 1.75rem;
+  line-height: 1rem;
+  font-weight: 500;
+}
+
+.journey__text {
+  font-size: 1.33rem;
+  color: #7f7f7f;
+  text-align: justify;
+}
+
+.button {
+  margin: 4rem 0rem;
+}
+
+.tech__img {
+  width: 12.5%;
+}
+
+.tech__container {
+  width: 100%;
+  padding: 2rem;
+}
+
+.text__container__second {
+  padding: 2rem;
+}
+
+.text__container__second p {
+  padding-bottom: 2rem;
+}
+
+.journey__button {
+  text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+  .flex {
+    display: flex;
+  }
+
+  .img__topleft {
+    margin: -10% 0 0 -15%;
+  }
+
+  .img__center {
+    margin: -5% -5% -10% 0;
+  }
+
+  .container__wrapper {
+    width: 55%;
+    background-color: #212121;
+    margin: 20rem auto;
+  }
+}

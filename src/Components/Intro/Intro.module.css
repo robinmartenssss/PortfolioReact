@@ -1,0 +1,41 @@
+.img {
+  width: 100%;
+  border-bottom-right-radius: 3.5rem;
+}
+
+h1 {
+  color: #f8a54c;
+}
+
+.container__info {
+  padding: 2rem;
+}
+
+.intro__button {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    display: flex;
+  }
+
+  .img {
+    width: 30%;
+    border-bottom-right-radius: 3rem;
+  }
+
+  .text {
+    width: 85%;
+    padding: 2rem 0rem 4rem 0rem;
+  }
+
+  .container__info {
+    margin: 10rem;
+  }
+
+  .intro__button {
+    text-align: left;
+  }
+}

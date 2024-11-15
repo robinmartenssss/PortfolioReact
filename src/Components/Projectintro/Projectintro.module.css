@@ -1,0 +1,16 @@
+.p {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.divider {
+  background-color: #f8a54c;
+  height: 0.4rem;
+  border-radius: 2rem;
+  width: 10%;
+  margin: 2rem auto;
+}
+
+.button {
+  margin: 4rem 0rem;
+}

@@ -1,0 +1,49 @@
+.container {
+  margin-bottom: 10rem;
+}
+
+.sjabloon__container {
+  width: 100%;
+  background-color: #212c3c;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 0rem 1rem 0rem;
+  margin: 2rem 0rem 2rem 0rem;
+}
+
+.sjabloon__container img {
+  width: 20%;
+}
+
+.sjabloon__code {
+  margin: 1rem 0rem 0.3rem 0rem;
+}
+.subtitle {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.p {
+  color: #7f7f7f;
+  font-weight: 500;
+  width: 80%;
+  line-height: 1.7rem;
+}
+
+@media screen and (min-width: 600px) {
+  .grid {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2rem;
+  }
+
+  .sjabloon__container {
+    margin: 0;
+  }
+}

@@ -1,0 +1,38 @@
+.titleContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 5rem;
+}
+
+.subTitle {
+  position: absolute;
+  top: 0rem;
+  font-size: 2rem;
+  text-align: center;
+  width: 100%;
+  color: white;
+}
+
+.headTitle {
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 0rem;
+  color: #212c3c;
+}
+
+span {
+  color: #f8a54c;
+}
+
+@media screen and (min-width: 600px) {
+  .subTitle {
+    font-size: 3.5rem;
+  }
+
+  .headTitle {
+    font-size: 6rem;
+  }
+}

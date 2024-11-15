@@ -1,0 +1,97 @@
+.p {
+  width: 80%;
+}
+
+.flexicon {
+  display: flex;
+}
+
+.imgWrapper {
+  margin: 2rem 0rem 0rem 0rem;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.techstack_container {
+  margin-bottom: 2rem;
+}
+
+.container__wrapper {
+  width: 80%;
+  background-color: #212121;
+  margin: 20rem auto;
+}
+.img__topleft {
+  width: 100%;
+}
+
+.img__center {
+  width: 100%;
+}
+
+.container__intro {
+  text-align: center;
+  margin: 5rem 0rem 2rem 0rem;
+}
+
+.divider {
+  background-color: #f8a54c;
+  height: 0.4rem;
+  border-radius: 2rem;
+  width: 10%;
+  margin: 2rem auto;
+}
+
+.h1 {
+  margin: 1rem 0rem;
+  font-size: 3rem;
+}
+
+.h3,
+.h2 {
+  font-family: "Lora";
+  font-size: 1.75rem;
+  line-height: 3rem;
+  font-weight: 500;
+}
+
+.button {
+  margin: 4rem 0rem;
+}
+
+.tech__img {
+  width: 12.5%;
+}
+
+.tech__container {
+  width: 100%;
+  margin: 2rem 0rem 0rem 4rem;
+}
+
+@media screen and (min-width: 600px) {
+  .flex {
+    display: flex;
+  }
+
+  .img__topleft {
+    width: 70%;
+    margin: -2% 0rem 0rem -2%;
+  }
+
+  .img__center {
+    width: 70%;
+    margin: -5% 0rem -8% 47.5%;
+  }
+
+  .container__wrapper {
+    width: 55%;
+    background-color: #212121;
+    margin: 20rem auto;
+  }
+
+  .p {
+    margin: 0 auto;
+  }
+}

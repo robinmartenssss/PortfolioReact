@@ -1,0 +1,38 @@
+.header {
+  background-color: #212121;
+  padding: 0rem 1rem 0rem 1rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  margin: 0;
+  font-size: 24px;
+  font-family: "Anton SC", sans-serif;
+}
+
+.nav {
+  display: flex;
+  gap: 3rem;
+  margin-right: 2rem;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  font-family: "Lora", sans-serif;
+}
+.link:hover {
+  text-decoration: underline;
+}
+
+.span {
+  color: white;
+}
+
+.active p,
+.active {
+  color: #f8a54c;
+}
